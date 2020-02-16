@@ -1,0 +1,19 @@
+{
+  "name": "fpjeyes",
+  "version": "1.0.0",
+  "description": "Ramdalicous",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayinbun/fpjeyes.git"
+  },
+  "author": "Bunyamin Yildirim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayinbun/fpjeyes/issues"
+  },
+  "homepage": "https://github.com/mayinbun/fpjeyes#readme"
+}
