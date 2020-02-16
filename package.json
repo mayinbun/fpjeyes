@@ -4,8 +4,10 @@
   "description": "Ramdalicous",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --open",
     "test": "test"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mayinbun/fpjeyes.git"
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/mayinbun/fpjeyes/issues"
   },
-  "homepage": "https://github.com/mayinbun/fpjeyes#readme"
+  "homepage": "https://github.com/mayinbun/fpjeyes#readme",
+  "dependencies": {
+    "ramda": "^0.27.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
